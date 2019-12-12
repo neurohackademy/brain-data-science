@@ -1,33 +1,31 @@
 - {url: welcome}
 - expand_sections: true
   sections:
-  - {url: chapters/01_introduction/00_overview}
   - {url: chapters/01_introduction/01_why_this}
   - {url: chapters/01_introduction/02_reproducibility}
   - {url: chapters/01_introduction/03_efficiency}
-  url: chapters/01_introduction
+  url: chapters/01_introduction/00_overview
 - expand_sections: true
   sections:
-  - {url: chapters/02_about/00_overview}
   - {url: chapters/02_about/01_who_for}
   - {url: chapters/02_about/02_scope}
   - {url: chapters/02_about/03_choices}
-  url: chapters/02_about
+  url: chapters/02_about/00_overview
 - expand_sections: true
   sections: []
-  url: chapters/03_environment
+  url: chapters/03_environment/00_overview
 - expand_sections: true
   sections: []
-  url: chapters/04_python
+  url: chapters/04_python/00_overview
 - expand_sections: true
   sections: []
-  url: chapters/05_numpy
+  url: chapters/05_numpy/00_overview
 - expand_sections: true
   sections: []
-  url: chapters/06_neuroimaging
+  url: chapters/06_neuroimaging/00_overview
 - expand_sections: true
   sections: []
-  url: chapters/07_machine_learning
+  url: chapters/07_machine_learning/00_overview
 - expand_sections: true
   sections: []
-  url: chapters/08_visualization
+  url: chapters/08_visualization/00_overview

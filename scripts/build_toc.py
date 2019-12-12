@@ -12,9 +12,10 @@ contents = [{'url': 'welcome'}]
 root = Path(__file__).parents[1] / 'content' / 'chapters'
 
 for cpath in sorted([p for p in root.iterdir() if p.is_dir()]):
-    sections = [p for p in sorted(list(cpath.iterdir())) if p.suffix == '.md']
+    sections = [p for p in sorted(list(cpath.iterdir()))
+                if p.suffix == '.md' and '00' not in str(p)]
     chapter = {
-        "url": parse_path(cpath),
+        "url": parse_path(cpath / '00_overview'),
         "expand_sections": True,
         "sections": [{"url": parse_path(s.with_suffix(''))} for s in sections]
     }
