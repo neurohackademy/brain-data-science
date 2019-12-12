@@ -26,9 +26,12 @@ clean:
 serve:
 	bundle exec guard
 
-build:
+build: toc
 	jupyter-book build ./ --overwrite
 
 site: build
 	bundle exec jekyll build
 	touch _site/.nojekyll
+
+toc:
+	./scripts/build_toc.py

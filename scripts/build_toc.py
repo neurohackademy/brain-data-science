@@ -1,5 +1,7 @@
+#!/usr/bin/env python
 """Build _data/toc.yml by inspecting content directory."""
 
+import os
 from pathlib import Path
 
 import yaml
@@ -21,5 +23,8 @@ for cpath in sorted([p for p in root.iterdir() if p.is_dir()]):
     }
     contents.append(chapter )
 
-with open(Path(__file__).parents[1] / '_data' / 'toc.yml', 'w') as file_:
+data_folder = Path(__file__).parents[1] / '_data'
+os.makedirs(data_folder, exist_ok=True)
+
+with open(data_folder / 'toc.yml', 'w') as file_:
     yaml.dump(contents, file_)
