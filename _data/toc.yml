@@ -27,8 +27,8 @@
   not_numbered: true
 
 # External link
-- title: GitHub repository
-  url: https://github.com/jupyter/jupyter-book
+- title: Neurohackademy
+  url: https://neurohackademy.org
   external: true
   not_numbered: true
 
