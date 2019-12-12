@@ -64,26 +64,23 @@ workflows:
   default:
     jobs:
       - build_page_html:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
+          branches:
+            ignore:
+              - gh-pages
       - doc:
           requires:
             - build_page_html
-          filters:
-            branches:
-              ignore:
-                - gh-pages
+          branches:
+            ignore:
+              - gh-pages
       - deploy:
           requires:
             - build_page_html
-          filters:
-              branches:
-                only:
-                  - master
-                ignore:
-                  - gh-pages
+          branches:
+            only:
+              - master
+            ignore:
+              - gh-pages
 
 commands:
   prepare_jekyll_installation:
