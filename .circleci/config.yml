@@ -35,7 +35,7 @@ jobs:
           path: _site/
           destination: html
 
-  # Deploy the built site to jupyter-book.github.io
+  # Deploy the built site to neurohackademy.github.io/brain-data-science
   deploy:
     docker:
       - image: circleci/python:3.7-stretch
@@ -43,7 +43,7 @@ jobs:
       # Add deployment key fingerprint for CircleCI to use for a push
       - add_ssh_keys:
           fingerprints:
-            - "{{ YOUR SSH FINGERPRINT }}"
+            - "{{ b3:e1:d2:f3:24:e4:88:15:2a:45:c9:ea:c3:f7:e9:5b }}"
 
       - prepare_jekyll_installation
       - run:
