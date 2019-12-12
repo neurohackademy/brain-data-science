@@ -1,17 +1,17 @@
 - {url: welcome}
 - expand_sections: true
   sections:
-  - {url: chapters/01_introduction/00_overview.md}
-  - {url: chapters/01_introduction/01_why_this.md}
-  - {url: chapters/01_introduction/02_reproducibility.md}
-  - {url: chapters/01_introduction/03_efficiency.md}
+  - {url: chapters/01_introduction/00_overview}
+  - {url: chapters/01_introduction/01_why_this}
+  - {url: chapters/01_introduction/02_reproducibility}
+  - {url: chapters/01_introduction/03_efficiency}
   url: chapters/01_introduction
 - expand_sections: true
   sections:
-  - {url: chapters/02_about/00_overview.md}
-  - {url: chapters/02_about/01_who_for.md}
-  - {url: chapters/02_about/02_scope.md}
-  - {url: chapters/02_about/03_choices.md}
+  - {url: chapters/02_about/00_overview}
+  - {url: chapters/02_about/01_who_for}
+  - {url: chapters/02_about/02_scope}
+  - {url: chapters/02_about/03_choices}
   url: chapters/02_about
 - expand_sections: true
   sections: []

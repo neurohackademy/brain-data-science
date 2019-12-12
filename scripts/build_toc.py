@@ -16,7 +16,7 @@ for cpath in sorted([p for p in root.iterdir() if p.is_dir()]):
     chapter = {
         "url": parse_path(cpath),
         "expand_sections": True,
-        "sections": [{"url": parse_path(s)} for s in sections]
+        "sections": [{"url": parse_path(s.with_suffix(''))} for s in sections]
     }
     contents.append(chapter )
 
