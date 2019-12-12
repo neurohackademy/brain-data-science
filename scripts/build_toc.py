@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Build _data/toc.yml by inspecting content directory."""
 
 from pathlib import Path
