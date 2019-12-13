@@ -7,3 +7,4 @@ nibabel
 nilearn
 jupyter-book
 pyyaml
+jupyter_contrib_nbextensions

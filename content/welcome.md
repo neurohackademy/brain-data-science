@@ -1,6 +1,8 @@
-# Neuroinformatics
+# Data Science for Neuroimaging
 
-Neuroinformatics is the study of the brain using computing. It merges ideas from
+Neuroscience aims to understand the wau
+
+Neuroimaging is the study of the human brain with measurement technologies that . It merges ideas from
 pscyhology, biology, physics, statistics as well as computer science and
 engineering to process, analyze and interpret data from neuroscience
 experiments, as well as simulate brain activity at different scales.
