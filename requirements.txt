@@ -8,3 +8,4 @@ nilearn
 jupyter-book
 pyyaml
 jupyter_contrib_nbextensions
+git+https://github.com/neurohackademy/bdslib.git
